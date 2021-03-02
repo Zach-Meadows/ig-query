@@ -18,6 +18,31 @@ usage: ig-query.py [-h] [--debug] [--format {html,json,markdown}] key
 
 Note that this script requires the use of the [requests](http://docs.python-requests.org/en/master/) and [Markdown](https://python-markdown.github.io/) libraries.
 
+## Output Formats
+
+### Markdown
+
+\# \[*fundamental indicator entered*\]
+
+\#\# Properties <br>
+\- Created on: \[*date created*\] <br>
+\- Modified on: \[*last date modified*\] <br>
+\- Severity: \[*severity number*\] (if any) <br>
+\- Threat Types: (if any)<br>
+    \[*list of types*\] <br>
+\- Last seen as: (if any) <br>
+    \[*list of last seen*\] <br>
+\- Comment: \[*meta data*\] (if any) <br>
+\#\# Relationships (if any) <br>
+    \[*list of relationships*\]
+
+#### examples
+
+<img width="293" alt="markdown example" src="https://user-images.githubusercontent.com/52054422/109682194-2eedcf00-7b4c-11eb-8425-9370319f0990.png">
+
+<img width="446" alt="mark 2" src="https://user-images.githubusercontent.com/52054422/109695105-89d9f300-7b59-11eb-8a1d-14438d12a547.png">
+
+
 ## Known issues
 
 None at this time.
